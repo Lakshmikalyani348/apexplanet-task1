@@ -1,0 +1,70 @@
+/* General Page Style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f0f8ff, #e6f2ff);
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+    color: #333;
+}
+
+/* Heading Style */
+h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #2a2a2a;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Paragraph Style */
+p {
+    font-size: 20px;
+    color: #444;
+    margin: 15px auto;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Image Style */
+img {
+    width: 250px;
+    border-radius: 15px;
+    margin: 30px 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Link Style */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004080;
+}
+
+/* Button Style */
+button {
+    padding: 12px 28px;
+    font-size: 16px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #004c99;
+    transform: translateY(-2px);
+}
